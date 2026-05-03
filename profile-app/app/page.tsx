@@ -19,6 +19,7 @@ export default function Home() {
             user-friendly interfaces, solving real-world problems, and learning
             new technologies.
           </p>
+          <p>Currently learning Cloud Computing and DevOps</p>
         </div>
 
         <div className="mt-6">
