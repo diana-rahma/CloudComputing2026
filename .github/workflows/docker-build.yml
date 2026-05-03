@@ -19,7 +19,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build Docker image
-        run: docker build -t dianarhmaw/profile-app:latest .
+        run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/profile-app:latest ./profile-app
 
       - name: Push Docker image
         run: docker push dianarhmaw/profile-app:latest
